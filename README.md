@@ -30,20 +30,28 @@ Marketplace de serviços e agendamentos para profissionais independentes e negó
 
 #### 🥗 [Alter Snack](https://github.com/MatEstevam/altersnack)
 
-Projeto colaborativo de uma plataforma de alimentação voltada a pessoas com restrições alimentares, com proposta semelhante à de um marketplace de delivery.
+Participei do desenvolvimento Full Stack de uma plataforma de venda de alimentos e produtos para pessoas com restrições alimentares, com proposta semelhante à de um marketplace de delivery.
+
+**Atuação:** desenvolvedor web remoto, de abril a agosto de 2024.
 
 - **Catálogo:** restaurantes e produtos organizados em uma aplicação web.
 - **Compras:** carrinho com alteração de quantidades e remoção de produtos, criação e consulta de pedidos.
-- **Integrações:** estrutura de pagamentos com Stripe e endpoint para webhooks.
-- **Tecnologias:** Ruby, Rails 7.1, PostgreSQL, Devise, Pundit, Bootstrap, Turbo e Stimulus.
+- **Receitas com IA:** integração com a API da OpenAI para gerar sugestões a partir de ingredientes, visualizar o resultado e salvar receitas na conta do usuário.
+- **Pagamentos:** integração com Stripe e estrutura de recebimento de eventos por webhooks.
+- **Acesso:** autenticação com Devise e autorização com Pundit.
+- **Tecnologias:** Ruby, Rails 7.1, PostgreSQL, JavaScript, Bootstrap, Turbo, Stimulus, Devise, Pundit, Cloudinary, Stripe e ruby-openai.
 
 [Ver código](https://github.com/MatEstevam/altersnack)
 
 #### 👕 [Rails Marketplace](https://github.com/Peuvictor/rails-marketplace)
 
-Projeto de marketplace de camisetas, com autenticação de usuários e rotas para catálogo, gerenciamento de anúncios, compra, pedidos e checkout.
+Aplicação web de marketplace de camisetas, desenvolvida com Ruby on Rails e PostgreSQL para praticar a construção de uma experiência de compra e venda.
 
-**Conceitos trabalhados:** organização MVC, rotas REST, autenticação com Devise e fluxo de compras.
+- **Catálogo e anúncios:** estrutura para listar, consultar, cadastrar, editar e excluir camisetas.
+- **Compras:** rotas para compra de produtos, gerenciamento de pedidos e checkout.
+- **Usuários:** autenticação com Devise e páginas de perfil.
+- **Conceitos trabalhados:** arquitetura MVC, rotas REST e persistência com Active Record.
+- **Tecnologias:** Ruby, Rails 7.1, PostgreSQL, JavaScript, Bootstrap, Turbo, Stimulus, Devise, pg_search e Cloudinary.
 
 [Ver código](https://github.com/Peuvictor/rails-marketplace)
 
