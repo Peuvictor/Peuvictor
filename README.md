@@ -14,16 +14,50 @@
 * **Infra e Background:** Azure, Sidekiq
 * **Especializações (DIO):** Java & Spring Boot (Globant) | Copilot & Azure Serverless (Microsoft)
 
-### 🚀 Projetos
+### 🚀 Projetos em Ruby on Rails
 
-* **[BH Agendamentos]**
-  SaaS focado no **agendamento de serviços locais** (como barbearias e pet shops). Desenvolvido para digitalizar a agenda de pequenos negócios com eficiência.
+#### 💈 [BH Agendamentos](https://github.com/Peuvictor/bh_agendamentos)
 
-* **[Copilots Library]**
-  Repositório contendo a arquitetura e os prompts dos meus assistentes virtuais de desenvolvimento (Don, Atlas, Mira e Dora). Garante que a ferramenta certa seja utilizada na fase correta de cada tarefa.
+Marketplace de serviços e agendamentos para profissionais independentes e negócios locais de Belo Horizonte. Reúne clientes, prestadores e administradores em uma aplicação com regras de agenda e integração de pagamentos.
 
-* **[Filmow Scraper]**
-  Ferramenta de automação para extração e consolidação de dados cinematográficos do Filmow. Um projeto construído para organizar a rotina de quem já tem mais de 1400 filmes na bagagem.
+- **Agenda:** disponibilidade por duração do serviço, múltiplos turnos, bloqueios de horários, calendário e reagendamento com histórico.
+- **Pagamentos:** integração com Mercado Pago para cartão e PIX, webhooks assinados e processamento idempotente.
+- **Gestão:** catálogo de serviços com fotos, avaliações, dashboard financeiro e moderação administrativa.
+- **Qualidade:** testes com Minitest e Selenium, análise com RuboCop e integração contínua no GitHub Actions.
+- **Tecnologias:** Ruby, Rails 7.1, PostgreSQL, Devise, Turbo, Stimulus, Tailwind CSS, Sidekiq, Redis, Active Storage e Docker.
+
+[Ver código](https://github.com/Peuvictor/bh_agendamentos) · [Demonstração — pagamentos em sandbox](https://bh-agendamentos.onrender.com/)
+
+#### 🥗 [Alter Snack](https://github.com/MatEstevam/altersnack)
+
+Projeto colaborativo de uma plataforma de alimentação voltada a pessoas com restrições alimentares, com proposta semelhante à de um marketplace de delivery.
+
+- **Catálogo:** restaurantes e produtos organizados em uma aplicação web.
+- **Compras:** carrinho com alteração de quantidades e remoção de produtos, criação e consulta de pedidos.
+- **Integrações:** estrutura de pagamentos com Stripe e endpoint para webhooks.
+- **Tecnologias:** Ruby, Rails 7.1, PostgreSQL, Devise, Pundit, Bootstrap, Turbo e Stimulus.
+
+[Ver código](https://github.com/MatEstevam/altersnack)
+
+#### 👕 [Rails Marketplace](https://github.com/Peuvictor/rails-marketplace)
+
+Projeto de marketplace de camisetas, com autenticação de usuários e rotas para catálogo, gerenciamento de anúncios, compra, pedidos e checkout.
+
+**Conceitos trabalhados:** organização MVC, rotas REST, autenticação com Devise e fluxo de compras.
+
+[Ver código](https://github.com/Peuvictor/rails-marketplace)
+
+#### 📚 Estudos e prática com Rails
+
+| Projeto | Foco |
+| --- | --- |
+| [Watch List](https://github.com/Peuvictor/rails-watch-list) | Listas de filmes e bookmarks, com rotas aninhadas para organizar os recursos. |
+| [Wikinimous](https://github.com/Peuvictor/rails-wikinimous) | Recurso de artigos com rotas REST para praticar a estrutura de uma aplicação Rails. |
+
+### 🛠️ Outros projetos
+
+- **[Copilots Library](https://github.com/Peuvictor/copilots-library):** arquitetura e prompts dos meus assistentes virtuais de desenvolvimento (Don, Atlas, Mira e Dora).
+- **[Filmow Insights](https://github.com/Peuvictor/filmow-insights):** ferramenta de automação para extração e consolidação de dados cinematográficos do Filmow.
 
 ### ⚡ Um pouco mais
 Quando não estou codando, estou acompanhando o **Cruzeiro** no futebol, a NBA (Lakers) ou a NFL (Patriots). Mantenho a cabeça no lugar com **musculação diária**, **corridas de 5km** aos sábados, podcasts de **True Crime** e um bom **churrasco**.
